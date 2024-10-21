@@ -15,8 +15,6 @@ It works with RTL-SDR and/or SoapySDR. Actively tested and supported are Realtek
 
 Latest docs: https://github.com/merbanan/rtl_433?tab=readme-ov-file#running
 
-SoapySDR is not supported since we are mounting a USB device and not working over the network.
-
 ## MQTT setup
 ### Home Assistant MQTT setup
 You have to setup the MQTT integration (with Mosquitto) and make it listen to your newly created topic. This works after you have run the container for the first time.
