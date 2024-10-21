@@ -1,6 +1,8 @@
 # rtl_433_mqtt
 I created this Docker container in order to run rtl_433 and gather Weather station data. Then, send that data over MQTT to have it integrated into Home Assistant as sensor data.
 
+Thanks to Merbanan for providing rtl_433: https://github.com/merbanan/rtl_433
+
 Tested hardware & Software:
 - Raspberry Pi 3 (Ubuntu Server & Docker)
 - NESDR Mini 2+ RTL-SDR with RTL2832U & R820T2
